@@ -23,11 +23,7 @@ export default class PeoplePage extends Component {
         const {
             getPerson,
             getAllPeople,
-            getStarship,
-            getPlanet,
             getPersonImage,
-            getStarshipImage,
-            getPlanetImage
         } = this.swapiService
 
         const itemList = (
