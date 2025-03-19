@@ -14,7 +14,7 @@ export default class DummySwapiService {
             birthYear: 'long ago',
             eyeColor: 'dark brown'
         }
-    ];
+    ]
 
     _planets = [
         {
@@ -31,7 +31,7 @@ export default class DummySwapiService {
             rotationPeriod: '243 days',
             diameter: '12.104 km'
         }
-    ];
+    ]
 
     _starships = [
         {
@@ -45,35 +45,35 @@ export default class DummySwapiService {
             passengers: 50,
             cargoCapacity: 100
         }
-    ];
+    ]
 
     getAllPeople = async () => {
         return this._people;
-    };
+    }
 
     getPerson = async () => {
         return this._people[0];
-    };
+    }
 
     getAllPlanets = async () => {
         return this._planets;
-    };
+    }
 
     getPlanet = async () => {
         return this._planets[0]
-    };
+    }
 
     getAllStarships = async () => {
         return this._starships;
-    };
+    }
 
     getStarship = async () => {
         return this._starships[0];
-    };
+    }
 
     getPersonImage = () => {
         return `https://placeimg.com/400/500/people`
-    };
+    }
 
     getStarshipImage = () => {
         return `https://placeimg.com/600/400/tech`;
@@ -81,5 +81,5 @@ export default class DummySwapiService {
 
     getPlanetImage = () => {
         return `https://placeimg.com/400/400/nature`
-    };
+    }
 }
