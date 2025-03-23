@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-import './spinner.css';
+import './spinner.css'
 
 const Spinner = () => {
     return (
@@ -13,4 +13,4 @@ const Spinner = () => {
     );
 };
 
-export default Spinner;
+export default Spinner
