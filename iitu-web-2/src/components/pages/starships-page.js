@@ -2,10 +2,15 @@ import React from "react"
 import Row from "../row"
 import { StarshipList } from "../sw-components"
 import { withRouter } from "react-router-dom"
+import Row from "../row";
+import StarshipIntro from "../starship-intro"
 
 const StarshipsPage = ({ history }) => {
     return (
-        <StarshipList onItemSelected={(itemId) => history.push(itemId)} />
+        <Row
+            left={<StarshipList onItemSelected={(itemId) => history.push(itemId)} />}
+            right={<StarshipIntro />}
+        />
     )
 }
 
